@@ -7,6 +7,10 @@ public class Cliente {
 	String telefone;
 	String cpf;
 	String rg;
+	String endereço;
+	int idade;
+	String profissao;
+	String estadoCivil;
 	
 	public int getId() {
 		return id;
@@ -38,6 +42,29 @@ public class Cliente {
 	public void setRg(String rg) {
 		this.rg = rg;
 	}
+	public String getEndereço() {
+		return endereço;
+	}
+	public void setEndereço(String endereço) {
+		this.endereço = endereço;
+	}
+	public int getIdade() {
+		return idade;
+	}
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
+	public String getProfissao() {
+		return profissao;
+	}
+	public void setProfissao(String profissao) {
+		this.profissao = profissao;
+	}
+	public String getEstadoCivil() {
+		return estadoCivil;
+	}
+	public void setEstadoCivil(String estadoCivil) {
+		this.estadoCivil = estadoCivil;
+	}
 	
-
 }

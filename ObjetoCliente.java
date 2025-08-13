@@ -12,18 +12,31 @@ public class ObjetoCliente {
 		cliente1.setCpf("204.830.938-7");
 		cliente1.setRg("65.627.145-9");
 		cliente1.setTelefone("(15)99201-0681");
+		cliente1.setEndereço("Londres, Inglaterra");
+		cliente1.setIdade(25);
+		cliente1.setProfissao("Dançarina");
+		cliente1.setEstadoCivil("Solteira");
 		
 		cliente2.setNome("Renato");
 		cliente2.setId(1002);
 		cliente2.setCpf("463.459.726-5");
 		cliente2.setRg("50.214.204-8");
 		cliente2.setTelefone("(15)98144-4500");
+		cliente2.setEndereço("Toronto, Canadá");
+		cliente2.setIdade(29);
+		cliente2.setProfissao("Empresário");
+		cliente2.setEstadoCivil("Casado");
 		
 		System.out.println(cliente1.getNome());
 		System.out.println(cliente1.getId());
 		System.out.println(cliente1.getCpf());
 		System.out.println(cliente1.getRg());
 		System.out.println(cliente1.getTelefone());
+		System.out.println(cliente1.getEndereço());
+		System.out.println(cliente1.getIdade());
+		System.out.println(cliente1.getProfissao());
+		System.out.println(cliente1.getEstadoCivil());
+		
 		
 		System.out.println();
 		
@@ -32,7 +45,10 @@ public class ObjetoCliente {
 		System.out.println(cliente2.getCpf());
 		System.out.println(cliente2.getRg());
 		System.out.println(cliente2.getTelefone());
-		
+		System.out.println(cliente2.getEndereço());
+		System.out.println(cliente2.getIdade());
+		System.out.println(cliente2.getProfissao());
+		System.out.println(cliente2.getEstadoCivil());
 	}
 
 }

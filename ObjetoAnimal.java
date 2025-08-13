@@ -49,7 +49,7 @@ public class ObjetoAnimal {
 		animal7.setTamanho("Pequeno Porte");
 		
 		animal8.setRaca("Galinha");
-		animal8.setCor("Branco");
+		animal8.setCor("Amarelo");
 		animal8.setFaseVida("Filhote");
 		animal8.setTamanho("Pequeno Porte");
 		
